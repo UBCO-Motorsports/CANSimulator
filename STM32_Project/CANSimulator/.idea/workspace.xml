@@ -29,7 +29,17 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="598e20a2-0cbf-4f05-8454-efcc3dc74caf" name="Default Changelist" comment="" />
+    <list default="true" id="598e20a2-0cbf-4f05-8454-efcc3dc74caf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Core/Inc/CANData.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Src/CANData.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.elf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.hex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.map" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +67,11 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Core/Inc" />
+    </key>
   </component>
   <component name="RunManager" selected="CMake Application.CANSimulator.elf">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
@@ -88,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601567751305</updated>
       <workItem from="1601567753030" duration="832000" />
-      <workItem from="1601568596973" duration="25000" />
+      <workItem from="1601568596973" duration="426000" />
     </task>
     <servers />
   </component>

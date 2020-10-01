@@ -108,6 +108,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/lukasvozenilek/UBCOMotorsports-Git/CANSimulator/STM32_Project/CANSimulator/Core/Inc/CANData.h">
+			<Option target="CANSimulator.elf"/>
+		</Unit>
 		<Unit filename="/Users/lukasvozenilek/UBCOMotorsports-Git/CANSimulator/STM32_Project/CANSimulator/Core/Inc/FreeRTOSConfig.h">
 			<Option target="CANSimulator.elf"/>
 		</Unit>
@@ -118,6 +121,9 @@
 			<Option target="CANSimulator.elf"/>
 		</Unit>
 		<Unit filename="/Users/lukasvozenilek/UBCOMotorsports-Git/CANSimulator/STM32_Project/CANSimulator/Core/Inc/stm32f3xx_it.h">
+			<Option target="CANSimulator.elf"/>
+		</Unit>
+		<Unit filename="/Users/lukasvozenilek/UBCOMotorsports-Git/CANSimulator/STM32_Project/CANSimulator/Core/Src/CANData.c">
 			<Option target="CANSimulator.elf"/>
 		</Unit>
 		<Unit filename="/Users/lukasvozenilek/UBCOMotorsports-Git/CANSimulator/STM32_Project/CANSimulator/Core/Src/freertos.c">

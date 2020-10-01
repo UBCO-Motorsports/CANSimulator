@@ -57,6 +57,18 @@ Discarded input sections
  .ARM.exidx     0x0000000000000000        0x8 /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
  .ARM.attributes
                 0x0000000000000000       0x1c /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+ .text          0x0000000000000000        0x0 CMakeFiles/CANSimulator.elf.dir/Core/Src/CANData.c.obj
+ .data          0x0000000000000000        0x0 CMakeFiles/CANSimulator.elf.dir/Core/Src/CANData.c.obj
+ .bss           0x0000000000000000        0x0 CMakeFiles/CANSimulator.elf.dir/Core/Src/CANData.c.obj
+ .debug_info    0x0000000000000000     0x1f9a CMakeFiles/CANSimulator.elf.dir/Core/Src/CANData.c.obj
+ .debug_abbrev  0x0000000000000000       0x45 CMakeFiles/CANSimulator.elf.dir/Core/Src/CANData.c.obj
+ .debug_aranges
+                0x0000000000000000       0x18 CMakeFiles/CANSimulator.elf.dir/Core/Src/CANData.c.obj
+ .debug_line    0x0000000000000000       0x85 CMakeFiles/CANSimulator.elf.dir/Core/Src/CANData.c.obj
+ .debug_str     0x0000000000000000      0x1e0 CMakeFiles/CANSimulator.elf.dir/Core/Src/CANData.c.obj
+ .comment       0x0000000000000000       0x7a CMakeFiles/CANSimulator.elf.dir/Core/Src/CANData.c.obj
+ .ARM.attributes
+                0x0000000000000000       0x39 CMakeFiles/CANSimulator.elf.dir/Core/Src/CANData.c.obj
  .text          0x0000000000000000        0x0 CMakeFiles/CANSimulator.elf.dir/Core/Src/freertos.c.obj
  .data          0x0000000000000000        0x0 CMakeFiles/CANSimulator.elf.dir/Core/Src/freertos.c.obj
  .bss           0x0000000000000000        0x0 CMakeFiles/CANSimulator.elf.dir/Core/Src/freertos.c.obj
@@ -1860,6 +1872,7 @@ Linker script and memory map
 LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crti.o
 LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtbegin.o
 LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/../../../../arm-none-eabi/lib/thumb/v7e-m+fp/hard/crt0.o
+LOAD CMakeFiles/CANSimulator.elf.dir/Core/Src/CANData.c.obj
 LOAD CMakeFiles/CANSimulator.elf.dir/Core/Src/freertos.c.obj
 LOAD CMakeFiles/CANSimulator.elf.dir/Core/Src/main.c.obj
 LOAD CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
@@ -2716,55 +2729,55 @@ LOAD /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-
                 0x00000000000006a5       0x1e /usr/local/Cellar/arm-none-eabi-gcc/9-2019-q4-major/gcc/bin/../lib/gcc/arm-none-eabi/9.2.1/thumb/v7e-m+fp/hard/crtn.o
 OUTPUT(CANSimulator.elf elf32-littlearm)
 
-.debug_info     0x0000000000000000    0x21e80
- .debug_info    0x0000000000000000     0x18b0 CMakeFiles/CANSimulator.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00000000000018b0     0x11fe CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
- .debug_info    0x0000000000002aae      0xabc CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
- .debug_info    0x000000000000356a      0x727 CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_it.c.obj
- .debug_info    0x0000000000003c91      0x4aa CMakeFiles/CANSimulator.elf.dir/Core/Src/system_stm32f3xx.c.obj
- .debug_info    0x000000000000413b       0x22 CMakeFiles/CANSimulator.elf.dir/Core/Startup/startup_stm32f303k8tx.s.obj
- .debug_info    0x000000000000415d      0x87a CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
- .debug_info    0x00000000000049d7     0x132f CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
- .debug_info    0x0000000000005d06      0xe4a CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
- .debug_info    0x0000000000006b50      0x873 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
- .debug_info    0x00000000000073c3     0x1692 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
- .debug_info    0x0000000000008a55      0x720 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
- .debug_info    0x0000000000009175     0x217b CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
- .debug_info    0x000000000000b2f0     0x393f CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
- .debug_info    0x000000000000ec2f     0x178d CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
- .debug_info    0x00000000000103bc     0x1e7e CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
- .debug_info    0x000000000001223a     0x53a2 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_info    0x00000000000175dc      0xb8b CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_info    0x0000000000018167      0x587 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_info    0x00000000000186ee      0xd22 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_info    0x0000000000019410     0x2fc9 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_info    0x000000000001c3d9     0x38a6 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_info    0x000000000001fc7f     0x2201 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+.debug_info     0x0000000000000000    0x21ece
+ .debug_info    0x0000000000000000     0x18fe CMakeFiles/CANSimulator.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00000000000018fe     0x11fe CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+ .debug_info    0x0000000000002afc      0xabc CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
+ .debug_info    0x00000000000035b8      0x727 CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_it.c.obj
+ .debug_info    0x0000000000003cdf      0x4aa CMakeFiles/CANSimulator.elf.dir/Core/Src/system_stm32f3xx.c.obj
+ .debug_info    0x0000000000004189       0x22 CMakeFiles/CANSimulator.elf.dir/Core/Startup/startup_stm32f303k8tx.s.obj
+ .debug_info    0x00000000000041ab      0x87a CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+ .debug_info    0x0000000000004a25     0x132f CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+ .debug_info    0x0000000000005d54      0xe4a CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+ .debug_info    0x0000000000006b9e      0x873 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+ .debug_info    0x0000000000007411     0x1692 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+ .debug_info    0x0000000000008aa3      0x720 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+ .debug_info    0x00000000000091c3     0x217b CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
+ .debug_info    0x000000000000b33e     0x393f CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+ .debug_info    0x000000000000ec7d     0x178d CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+ .debug_info    0x000000000001040a     0x1e7e CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+ .debug_info    0x0000000000012288     0x53a2 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_info    0x000000000001762a      0xb8b CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_info    0x00000000000181b5      0x587 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_info    0x000000000001873c      0xd22 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_info    0x000000000001945e     0x2fc9 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_info    0x000000000001c427     0x38a6 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_info    0x000000000001fccd     0x2201 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 
-.debug_abbrev   0x0000000000000000     0x3bc3
- .debug_abbrev  0x0000000000000000      0x2d6 CMakeFiles/CANSimulator.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x00000000000002d6      0x200 CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
- .debug_abbrev  0x00000000000004d6      0x219 CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
- .debug_abbrev  0x00000000000006ef      0x193 CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_it.c.obj
- .debug_abbrev  0x0000000000000882      0x148 CMakeFiles/CANSimulator.elf.dir/Core/Src/system_stm32f3xx.c.obj
- .debug_abbrev  0x00000000000009ca       0x12 CMakeFiles/CANSimulator.elf.dir/Core/Startup/startup_stm32f303k8tx.s.obj
- .debug_abbrev  0x00000000000009dc      0x219 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
- .debug_abbrev  0x0000000000000bf5      0x263 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
- .debug_abbrev  0x0000000000000e58      0x367 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
- .debug_abbrev  0x00000000000011bf      0x213 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
- .debug_abbrev  0x00000000000013d2      0x2f9 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
- .debug_abbrev  0x00000000000016cb      0x296 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x0000000000001961      0x267 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
- .debug_abbrev  0x0000000000001bc8      0x258 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
- .debug_abbrev  0x0000000000001e20      0x26e CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
- .debug_abbrev  0x000000000000208e      0x270 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
- .debug_abbrev  0x00000000000022fe      0x4a8 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_abbrev  0x00000000000027a6      0x249 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_abbrev  0x00000000000029ef      0x26b CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_abbrev  0x0000000000002c5a      0x372 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_abbrev  0x0000000000002fcc      0x43f CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_abbrev  0x000000000000340b      0x412 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_abbrev  0x000000000000381d      0x3a6 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+.debug_abbrev   0x0000000000000000     0x3be3
+ .debug_abbrev  0x0000000000000000      0x2f6 CMakeFiles/CANSimulator.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x00000000000002f6      0x200 CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+ .debug_abbrev  0x00000000000004f6      0x219 CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
+ .debug_abbrev  0x000000000000070f      0x193 CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_it.c.obj
+ .debug_abbrev  0x00000000000008a2      0x148 CMakeFiles/CANSimulator.elf.dir/Core/Src/system_stm32f3xx.c.obj
+ .debug_abbrev  0x00000000000009ea       0x12 CMakeFiles/CANSimulator.elf.dir/Core/Startup/startup_stm32f303k8tx.s.obj
+ .debug_abbrev  0x00000000000009fc      0x219 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+ .debug_abbrev  0x0000000000000c15      0x263 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+ .debug_abbrev  0x0000000000000e78      0x367 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+ .debug_abbrev  0x00000000000011df      0x213 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+ .debug_abbrev  0x00000000000013f2      0x2f9 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+ .debug_abbrev  0x00000000000016eb      0x296 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x0000000000001981      0x267 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
+ .debug_abbrev  0x0000000000001be8      0x258 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+ .debug_abbrev  0x0000000000001e40      0x26e CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x00000000000020ae      0x270 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+ .debug_abbrev  0x000000000000231e      0x4a8 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_abbrev  0x00000000000027c6      0x249 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_abbrev  0x0000000000002a0f      0x26b CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_abbrev  0x0000000000002c7a      0x372 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_abbrev  0x0000000000002fec      0x43f CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_abbrev  0x000000000000342b      0x412 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_abbrev  0x000000000000383d      0x3a6 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 
 .debug_loc      0x0000000000000000    0x168bd
  .debug_loc     0x0000000000000000       0x8c CMakeFiles/CANSimulator.elf.dir/Core/Src/main.c.obj
@@ -2862,77 +2875,77 @@ OUTPUT(CANSimulator.elf elf32-littlearm)
  .debug_ranges  0x0000000000001320      0x328 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
  .debug_ranges  0x0000000000001648       0xd0 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 
-.debug_line     0x0000000000000000    0x19d47
- .debug_line    0x0000000000000000      0x77a CMakeFiles/CANSimulator.elf.dir/Core/Src/main.c.obj
- .debug_line    0x000000000000077a      0x587 CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
- .debug_line    0x0000000000000d01      0x421 CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
- .debug_line    0x0000000000001122      0x40a CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_it.c.obj
- .debug_line    0x000000000000152c      0x3c9 CMakeFiles/CANSimulator.elf.dir/Core/Src/system_stm32f3xx.c.obj
- .debug_line    0x00000000000018f5       0xd4 CMakeFiles/CANSimulator.elf.dir/Core/Startup/startup_stm32f303k8tx.s.obj
- .debug_line    0x00000000000019c9      0x66a CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
- .debug_line    0x0000000000002033     0x1262 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
- .debug_line    0x0000000000003295      0x7b6 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
- .debug_line    0x0000000000003a4b      0x7fc CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
- .debug_line    0x0000000000004247     0x130d CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
- .debug_line    0x0000000000005554      0x842 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
- .debug_line    0x0000000000005d96     0x2999 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
- .debug_line    0x000000000000872f     0x3b30 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
- .debug_line    0x000000000000c25f     0x1465 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
- .debug_line    0x000000000000d6c4     0x2298 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
- .debug_line    0x000000000000f95c     0x2f0c CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
- .debug_line    0x0000000000012868      0x5ab CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
- .debug_line    0x0000000000012e13      0x7fb CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
- .debug_line    0x000000000001360e      0x829 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
- .debug_line    0x0000000000013e37     0x21e4 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
- .debug_line    0x000000000001601b     0x2d72 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
- .debug_line    0x0000000000018d8d      0xfba CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+.debug_line     0x0000000000000000    0x19db6
+ .debug_line    0x0000000000000000      0x7e9 CMakeFiles/CANSimulator.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x00000000000007e9      0x587 CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+ .debug_line    0x0000000000000d70      0x421 CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
+ .debug_line    0x0000000000001191      0x40a CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_it.c.obj
+ .debug_line    0x000000000000159b      0x3c9 CMakeFiles/CANSimulator.elf.dir/Core/Src/system_stm32f3xx.c.obj
+ .debug_line    0x0000000000001964       0xd4 CMakeFiles/CANSimulator.elf.dir/Core/Startup/startup_stm32f303k8tx.s.obj
+ .debug_line    0x0000000000001a38      0x66a CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+ .debug_line    0x00000000000020a2     0x1262 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+ .debug_line    0x0000000000003304      0x7b6 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+ .debug_line    0x0000000000003aba      0x7fc CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+ .debug_line    0x00000000000042b6     0x130d CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+ .debug_line    0x00000000000055c3      0x842 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+ .debug_line    0x0000000000005e05     0x2999 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
+ .debug_line    0x000000000000879e     0x3b30 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+ .debug_line    0x000000000000c2ce     0x1465 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+ .debug_line    0x000000000000d733     0x2298 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+ .debug_line    0x000000000000f9cb     0x2f0c CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_line    0x00000000000128d7      0x5ab CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_line    0x0000000000012e82      0x7fb CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_line    0x000000000001367d      0x829 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_line    0x0000000000013ea6     0x21e4 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_line    0x000000000001608a     0x2d72 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_line    0x0000000000018dfc      0xfba CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
 
-.debug_str      0x0000000000000000     0x7fb4
- .debug_str     0x0000000000000000     0x1474 CMakeFiles/CANSimulator.elf.dir/Core/Src/main.c.obj
-                                       0x1571 (size before relaxing)
- .debug_str     0x0000000000001474      0x174 CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
+.debug_str      0x0000000000000000     0x7fc2
+ .debug_str     0x0000000000000000     0x1482 CMakeFiles/CANSimulator.elf.dir/Core/Src/main.c.obj
+                                       0x157f (size before relaxing)
+ .debug_str     0x0000000000001482      0x174 CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_hal_msp.c.obj
                                         0xc7e (size before relaxing)
- .debug_str     0x00000000000015e8      0x459 CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
+ .debug_str     0x00000000000015f6      0x459 CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_hal_timebase_tim.c.obj
                                         0xc05 (size before relaxing)
- .debug_str     0x0000000000001a41       0xfb CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_it.c.obj
+ .debug_str     0x0000000000001a4f       0xfb CMakeFiles/CANSimulator.elf.dir/Core/Src/stm32f3xx_it.c.obj
                                         0x7d7 (size before relaxing)
- .debug_str     0x0000000000001b3c      0x102 CMakeFiles/CANSimulator.elf.dir/Core/Src/system_stm32f3xx.c.obj
+ .debug_str     0x0000000000001b4a      0x102 CMakeFiles/CANSimulator.elf.dir/Core/Src/system_stm32f3xx.c.obj
                                         0x441 (size before relaxing)
- .debug_str     0x0000000000001c3e       0x85 CMakeFiles/CANSimulator.elf.dir/Core/Startup/startup_stm32f303k8tx.s.obj
+ .debug_str     0x0000000000001c4c       0x85 CMakeFiles/CANSimulator.elf.dir/Core/Startup/startup_stm32f303k8tx.s.obj
                                          0xe9 (size before relaxing)
- .debug_str     0x0000000000001cc3      0x29f CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
+ .debug_str     0x0000000000001cd1      0x29f CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj
                                         0x976 (size before relaxing)
- .debug_str     0x0000000000001f62      0x5a1 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
+ .debug_str     0x0000000000001f70      0x5a1 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_can.c.obj
                                         0xbde (size before relaxing)
- .debug_str     0x0000000000002503      0x372 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
+ .debug_str     0x0000000000002511      0x372 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj
                                         0xa70 (size before relaxing)
- .debug_str     0x0000000000002875      0x1ff CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
+ .debug_str     0x0000000000002883      0x1ff CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj
                                         0x64c (size before relaxing)
- .debug_str     0x0000000000002a74      0x1f8 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
+ .debug_str     0x0000000000002a82      0x1f8 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj
                                         0x7de (size before relaxing)
- .debug_str     0x0000000000002c6c      0x10d CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
+ .debug_str     0x0000000000002c7a      0x10d CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj
                                         0x5fc (size before relaxing)
- .debug_str     0x0000000000002d79      0x5c1 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
+ .debug_str     0x0000000000002d87      0x5c1 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_spi.c.obj
                                         0xd31 (size before relaxing)
- .debug_str     0x000000000000333a      0xea6 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
+ .debug_str     0x0000000000003348      0xea6 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj
                                        0x16ae (size before relaxing)
- .debug_str     0x00000000000041e0      0x5f5 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
+ .debug_str     0x00000000000041ee      0x5f5 CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj
                                         0xeb4 (size before relaxing)
- .debug_str     0x00000000000047d5      0x74f CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
+ .debug_str     0x00000000000047e3      0x74f CMakeFiles/CANSimulator.elf.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_uart.c.obj
                                         0xfbf (size before relaxing)
- .debug_str     0x0000000000004f24     0x15f6 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
+ .debug_str     0x0000000000004f32     0x15f6 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2/cmsis_os2.c.obj
                                        0x1d9b (size before relaxing)
- .debug_str     0x000000000000651a      0x192 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
+ .debug_str     0x0000000000006528      0x192 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/list.c.obj
                                         0x7bf (size before relaxing)
- .debug_str     0x00000000000066ac      0x29f CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
+ .debug_str     0x00000000000066ba      0x29f CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c.obj
                                         0x545 (size before relaxing)
- .debug_str     0x000000000000694b      0x237 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
+ .debug_str     0x0000000000006959      0x237 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c.obj
                                         0x8a8 (size before relaxing)
- .debug_str     0x0000000000006b82      0x62a CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
+ .debug_str     0x0000000000006b90      0x62a CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/queue.c.obj
                                        0x113d (size before relaxing)
- .debug_str     0x00000000000071ac      0x8e4 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
+ .debug_str     0x00000000000071ba      0x8e4 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/tasks.c.obj
                                        0x1739 (size before relaxing)
- .debug_str     0x0000000000007a90      0x524 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
+ .debug_str     0x0000000000007a9e      0x524 CMakeFiles/CANSimulator.elf.dir/Middlewares/Third_Party/FreeRTOS/Source/timers.c.obj
                                        0x10b0 (size before relaxing)
 
 .comment        0x0000000000000000       0x79
