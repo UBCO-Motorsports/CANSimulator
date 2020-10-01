@@ -30,15 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="598e20a2-0cbf-4f05-8454-efcc3dc74caf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Core/Inc/CANData.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Src/CANData.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Src/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Src/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.elf" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.elf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.hex" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.hex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.map" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CANSimulator.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +95,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601567751305</updated>
       <workItem from="1601567753030" duration="832000" />
-      <workItem from="1601568596973" duration="426000" />
+      <workItem from="1601568596973" duration="789000" />
     </task>
     <servers />
   </component>
